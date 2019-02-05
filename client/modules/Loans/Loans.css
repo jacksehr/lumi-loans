@@ -1,0 +1,45 @@
+.loan {
+	display: flex;
+  border-bottom: 1px solid #aaa;
+  align-items: center;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.graph {
+  margin-bottom: 20px;
+}
+
+.page-indicator {
+  width: 100%;
+  margin-top: 2rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.left-button {
+  justify-self: end;
+}
+
+.right-button {
+  justify-self: start;
+}
+
+.left-button, .right-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.filter-container {
+  margin-top: 1rem;
+  padding: 0 8rem;
+  text-align: center;
+}

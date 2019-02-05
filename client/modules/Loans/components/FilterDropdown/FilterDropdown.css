@@ -1,0 +1,17 @@
+.dropdown {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: aliceblue;
+}
+
+.dropdown-area {
+  display: inline;
+  margin: 1rem;
+}
+
+.dropdown-label {
+  display: inline-block;
+  margin-right: 8px;
+}
+
